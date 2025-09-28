@@ -1,0 +1,32 @@
+{
+  "name": "chat-app",
+  "version": "1.0.0",
+  "description": "Real-time chat application with Node.js, Socket.io, and MySQL",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "start-sqlite": "node server-sqlite.js",
+    "dev": "nodemon server.js",
+    "dev-sqlite": "nodemon server-sqlite.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.2",
+    "express": "^4.21.2",
+    "mysql2": "^3.15.1",
+    "openai": "^5.23.1",
+    "socket.io": "^4.8.1",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "keywords": [
+    "chat",
+    "websocket",
+    "mysql",
+    "nodejs"
+  ],
+  "author": "",
+  "license": "MIT"
+}
